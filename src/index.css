@@ -3,5 +3,27 @@
 @tailwind utilities;
 
 body {
-  background-color: #000300;
+    background-color: #000300;
+}
+
+@layer base {
+  h1 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply font-bold;
+  }
+
+  aside {
+    @apply fixed top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500
+  }
+
+  button {
+      @apply bg-[#00df9a] text-black rounded-md w-[200px] font-medium py-3 px-4 hover:scale-105 active:scale-90 transition-transform;
+  }
+
+  input {
+      @apply p-3 flex w-full rounded-md text-black;
+  }
 }

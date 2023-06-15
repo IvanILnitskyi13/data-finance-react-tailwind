@@ -8,20 +8,14 @@ const Card = () => {
             src={Single}
             alt='Single Image'
         />
-        <h2 className='block text-2xl font-bold text-center py-8'>
-            Single User
-        </h2>
+        <h2 className='block text-2xl font-bold text-center py-8'>Single User</h2>
         <p className='text-center text-4xl font-bold'>$149</p>
         <div className='text-center font-medium'>
-            <p className='py-2 border-b mx-8 mt-8'>
-                500 GB Storage
-            </p>
+            <p className='py-2 border-b mx-8 mt-8'>500 GB Storage</p>
             <p className='py-2 border-b mx-8'>1 Granted User</p>
             <p className='py-2 border-b mx-8'>Send up to 2 GB</p>
         </div>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-4 py-3'>
-            Start Trial
-        </button>
+        <button className='my-6 mx-auto'>Start Trial</button>
     </div>
   )
 }
